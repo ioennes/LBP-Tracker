@@ -4,10 +4,10 @@ import time
 keys = open(r"C:\Users\johnc\Documents\CP2\scraper\scrape\src\keys.txt", "r").readlines()
 print(keys)
 
-key = "6M7USdHULQEFdgczllRS3DiDy"
-secretKey = "MlPRoZowqoApPovMokij4FEblEykFnVsMqkbxL0a5RVJY5tB5h"
-token = "1479890504099717122-kp4EevQRn4NDseWvhfgSq9dXsVyEP6"
-secretToken = "xpEkJ1c8YS4BTh8Ul1ImyhoUflnKot9unz9ei2yGIeul5"
+key = "XXX"
+secretKey = "XXX"
+token = "XXX"
+secretToken = "XXX"
 
 authenticator = tweepy.OAuthHandler(key, secretKey);
 authenticator.set_access_token(token, secretToken);
